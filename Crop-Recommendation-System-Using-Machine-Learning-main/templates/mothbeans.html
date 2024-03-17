@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crop Information</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Domine:wght@400;700&display=swap">
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #BCBBB8; /* Set the background color to grey */
+        }
+
+        .crop-container {
+            text-align: center;
+            flex-grow: 1; /* Allow the container to grow to fill available space */
+            position: relative;
+        }
+
+        .crop-image {
+            width: 120%; /* Adjust the width as needed */
+            height: 50%;
+            margin: 120px 0; /* Center the image vertically and align it to the left */
+        }
+
+        .crop-name {
+            font-family: 'Domine', serif; /* Set the font family to Domine or your desired font */
+            font-style: normal; /* Set the font style to normal (not italic) */
+            font-weight: 400; /* Use the regular weight, you can also use 700 for bold */
+            font-size: 36px; /* Set the font size to 36 pixels or your desired size */
+            color: #000; /* Set text color to black */
+            position: absolute;
+            top: 10px; /* Adjust the distance from the top */
+            left: 50%; /* Center the name horizontally */
+            transform: translateX(-50%); /* Adjust for centering */
+        }
+    </style>
+    <!-- You can include additional styles or scripts here -->
+</head>
+<body>
+
+    <div class="crop-container">
+        <h1 class="crop-name">MOTHBEANS</h1>
+        <img class="crop-image" src="/static/images/mothbeans.jpeg" alt="Crop Image">
+    </div>
+
+</body>
+</html>
